@@ -22,6 +22,11 @@
         "no-process-exit": "off",
         "object-shorthand": "off",
         "class-methods-use-this": "off",
-        "react/style-prop-object": "off"
+        "react/style-prop-object": "off",
+        "react/prop-types": "off",
+        "no-console": "off",
+        "no-unused-expressions": "off",
+        "import/no-extraneous-dependencies": "off",
+        "import/no-unresolved": "off"
     }
 }
