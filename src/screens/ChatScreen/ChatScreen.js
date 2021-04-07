@@ -99,7 +99,7 @@ const ChatScreen = ({navigation, route}) => {
         style={styles.container}
         keyboardVerticalOffset={90}>
         <>
-          <ScrollView contentContainerStyle={{paddingTop: 15}}>
+          <ScrollView contentContainerStyle={{paddingTop: 15, paddingLeft: 10}}>
             {messages.map((data) =>
               data.email === authUser.email ? (
                 <View key={data.id} style={styles.sender}>
@@ -121,7 +121,7 @@ const ChatScreen = ({navigation, route}) => {
                     position="absolute"
                     bottom={-15}
                     right={-5}
-                    containerStyle={styles.photo}
+                    containerStyle={styles.profileReciever}
                     rounded
                     size={30}
                     source={{uri: data.photoUrl}}

@@ -58,23 +58,19 @@ const styles = StyleSheet.create({
   recieverText: {
     color: '#8C8C8C',
     fontWeight: '500',
-    marginLeft: 10,
     marginBottom: 15,
   },
   senderText: {
     color: '#FFFFFF',
     fontWeight: '500',
-    marginLeft: 10,
     marginBottom: 15,
   },
   senderName: {
-    left: 10,
     paddingRight: 10,
     fontSize: 10,
     color: '#FFFFFF',
   },
   recieverName: {
-    left: 10,
     paddingRight: 10,
     fontSize: 10,
     color: '#8C8C8C',
@@ -83,6 +79,11 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: -15,
     right: -5,
+  },
+  profileReciever: {
+    position: 'absolute',
+    bottom: -15,
+    left: -5,
   },
 });
 
